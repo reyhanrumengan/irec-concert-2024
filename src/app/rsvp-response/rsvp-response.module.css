@@ -47,6 +47,15 @@
   background-color: #d75201;
 }
 
+.link {
+  color: #f96401;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #d75201;
+}
+
 @media screen and (max-width: 850px) {
   .containerWidth {
     max-width: 850px;

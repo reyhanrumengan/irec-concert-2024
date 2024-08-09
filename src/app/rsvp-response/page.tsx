@@ -20,10 +20,7 @@ export default function RSVPResponse() {
             <p>See you at the event!</p>
             <p>
               For more information, please check{" "}
-              <Link
-                href="/about"
-                style={{ color: "#f96401", textDecoration: "none" }}
-              >
+              <Link href="/about" className={styles.link}>
                 HERE
               </Link>
               .
